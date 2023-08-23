@@ -34,15 +34,17 @@ export default function Routes() {
         }}
       >
         <BottomTab.Screen
-          name="Home"
-          component={Home}
+          name="PerfilRoutes"
+          component={PerfilRoutes}
           options={{
-            tabBarLabel: 'Home',
+            headerShown: false,
+            tabBarLabel: 'Perfil',
             tabBarIcon: ({ color }) => (
-              <MaterialIcons name="home" color={color} size={26} />
+              <MaterialIcons name="person" color={color} size={26} />
             ),
           }}
         />
+
         <BottomTab.Screen
           name="Busca"
           component={Busca}
