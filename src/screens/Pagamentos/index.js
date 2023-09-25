@@ -1,7 +1,5 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import Perfil from './screens/Perfil';
-import Pagamentos from './screens/Pagamentos';
 
 
 

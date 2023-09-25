@@ -9,6 +9,7 @@ import Home from './screens/Home';
 import Busca from './screens/Busca';
 import Perfil from './screens/Perfil';
 import Pedidos from './screens/Pedidos';
+import Pagamentos from './screens/Pagamentos'
 
 const PerfilStack = createStackNavigator();
 const BottomTab = createBottomTabNavigator();
@@ -33,17 +34,7 @@ export default function Routes() {
           tabBarInactiveTintColor: 'black',
         }}
       >
-        <BottomTab.Screen
-          name="PerfilRoutes"
-          component={PerfilRoutes}
-          options={{
-            headerShown: false,
-            tabBarLabel: 'Perfil',
-            tabBarIcon: ({ color }) => (
-              <MaterialIcons name="person" color={color} size={26} />
-            ),
-          }}
-        />
+        
 
         <BottomTab.Screen
           name="Busca"
@@ -69,7 +60,7 @@ export default function Routes() {
           name="PerfilRoutes"
           component={PerfilRoutes}
           options={{
-            tabBarLabel: 'Perfil',
+            tabBarLabel: 'PerfilRoute',
             tabBarIcon: ({ color }) => (
               <MaterialIcons name="person" color={color} size={26} />
             ),
