@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ScrollView, StyleSheet } from 'react-native';
 import Endereco from '../../components/Home/Endereco';
-import Input from '../../components/Input';
+import Input from '../../components/Home/Input';
 import CupomDesconto from '../../components/Home/CupomDesconto';
 import Sugestoes from '../../components/Home/Sugestoes';
 import Promocoes from '../../components/Home/Promocoes';
